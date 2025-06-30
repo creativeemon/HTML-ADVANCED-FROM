@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advanced From Element</title>
     <style>
-        label, textarea{
+        label, textarea ,input{
             display: block;
             margin: 8px;
         }
@@ -13,11 +13,19 @@
 </head>
 <body>
     <h1>Advanced From Element</h1>
+    <h2>Contact From Practical</h2>
      <!-- text aria -->
       <div>
         <form>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="name" placeholder="Enter your email">
+
             <label for="message">Message:</label>
             <textarea name="message" id="message" rows="5" cols="50" placeholder="Enter your massage" ></textarea>
+            <input type="submit" value="send Massage">
         </form>
       </div>
 </body>
